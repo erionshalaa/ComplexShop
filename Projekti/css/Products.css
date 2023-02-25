@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.main{
+    width: 100%;
+   
+}
+.navbar{
+    width: 1349px;
+    height: 70px;
+    margin: auto;
+   
+   background-color: white;
+   
+}
+
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+   
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    
+    cursor: pointer;
+    position: relative;
+    left: 80px;
+    bottom: 21px;
+    
+    
+    
+  
+}
+.logoicon{
+    width: 40px;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.plogoicon{
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    left: 55px;
+    vertical-align: middle;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    position: relative;
+    left: 150px;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s;
+    
+}
+.menu ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    position: relative;
+    left: 200px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+   
+    border-radius: 50px;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    
+}
+.buttoni{
+    width: 70px;
+    margin-top: 13px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #ff7200;
+    background-color: #ff7200;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+ 
+}
+.buttoni:hover{
+    opacity: 0.8;
+}
+.buttoni:active{
+    opacity: 0.6;
+}
+.logocomplex{
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.footer{
+    position: relative;
+    top: 300px;
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    padding-bottom: 85px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.footer1,.footer2,.footer3,.footer4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.footer1{
+    flex-basis: 30%;
+    position: relative;
+    left: 70px;
+}
+.apps{
+    position: relative;
+    top: 20px;
+}
+.footer2{
+    flex: 1;
+    text-align: center;
+    
+    
+}
+.footer1 img{
+    width: 108px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer3,.footer4{
+    flex-basis: 12%;
+    text-align: center;
+
+}
+.footer3,.footer4 li{
+   line-height: 20px;
+
+}
+ul{
+    list-style-type: none;
+}
+.copyright{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.complex{
+    color: red;
+
+}
+.ptext{
+    position: relative;
+    top: 25px;
+}
+.rowi{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+    justify-content: space-evenly;
+  
+}
+
+
+
+.col1{
+    flex-basis: 20%;
+    cursor: pointer;
+      transition: transform 0.5s;
+      
+}
+.par2,.par3{
+    margin-top: 15px;  
+}
+.par1{
+    margin-top: 30px;
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col1:hover{
+    transform: translateY(-4px);
+}
+
+
+
+
+.h2details{
+    position: relative;
+    left: 620px;
+    bottom: 80px;
+    text-decoration: none;
+    font-weight: normal;
+    display: inline-block;
+}
+.addtocart{
+    background-color: #ff7200;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 36px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: normal;
+    position: relative;
+    left: 680px;
+    bottom: 68px;
+    transition: 0.5s;
+}
+.addtocart:hover{
+    opacity: 0.8;
+}
+.addtocart:active{
+    opacity: 0.6;
+}
+.quantity{
+    border: 1px solid #ff7200;
+    height: 36px;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 495px;
+    bottom: 68px;
+    background: transparent;
+    text-align: center;
+   border-radius: 20px;
+   
+
+}
+.theprice1{
+    position: relative;
+    
+    bottom: 50px;
+   text-align: center;
+  
+   
+}
+
+#forma form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#forma h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+    
+}
+#forma form input,#forma form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    
+}
+#forma form button{
+    background-color: #ff7200;
+    border-radius: 20px;
+    border: none;
+   margin-bottom: 20px;
+    color: white;
+    height: 36px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: normal;
+    transition: 0.5s;
+   
+}
+#forma form button:hover{
+    opacity: 0.8;
+}
+#forma form button:active{
+    opacity: 0.6;
+}
+#forma span{
+    color: hsl(0, 13%, 65%);
+}
+
+fieldset{
+    margin: 20px 20px ;
+}
+
+
+
+
+
+.accountpage{
+    padding:200px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+   
+}
+.formcontainer{
+    background: #fff;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    padding: 20px 0;
+   margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.formcontainer span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.formbtn{
+    display: inline-block;
+
+}
+.formcontainer form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+
+}
+ .formcontainer form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+.formcontainer form .bbutoni{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.formcontainer form .bbutoni:focus{
+    outline: none;
+}
+#loginform{
+    left: 20px;
+}
+#registerform{
+    left: 20px;
+}
+
+.formcontainer form a{
+    font-size: 12px;
+}
+
+
+.formcontainer .bbutoni{
+    background-color: #ff7200;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 36px;
+    position: relative;
+    left: 10px;
+}
+
+
+.bord{
+    
+        align-items: center;
+        border-bottom: 1px solid #dadde1;
+        display: flex;
+        margin: 20px 16px;
+        text-align: center;
+
+}
+.create{
+    width: 200px;
+    margin-top: 13px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(7, 156, 7);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.create:hover{
+    opacity: 0.8;
+}
+.create:active{
+    opacity: 0.6;
+}
+
+.productcontent{
+    display:flex ;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+    justify-content:space-evenly;
+    
+}
+
